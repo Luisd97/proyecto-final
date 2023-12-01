@@ -1,0 +1,62 @@
+
+nav{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+        display: flex;
+       
+        justify-content: space-between;
+        align-items: center;
+       
+     .logo{
+        width: 200px;
+        
+     }
+        
+    }
+    
+    nav img{
+        width:70px;
+       
+        position: relative;
+        left: 20px;
+    }
+    
+        
+    
+    nav ul{ 
+     list-style: none;
+     display: flex;
+    }
+    
+    nav ul li{
+    margin: 15px;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        position: relative;
+        right: 60px;
+     
+       border-radius: 5px;
+    
+       
+    }
+    
+    nav .search{
+        background-color: transparent;
+        padding: 0;
+        width: 300px;
+        display: flex;
+    
+       
+    }
+    
+    nav .search button{
+        margin-left: 5px;
+        height: 30px;
+        background-color: lightgray;
+        border: none;
+        padding: 4px 6px;
+        border-radius: 5px;
+    }

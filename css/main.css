@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.img-analisis {
+  width: 240px;
+  height: 280px;
+}
+
+div.contenedor1 {
+  margin-top: 80px;
+}
+
+div.contenedor2 {
+  margin-top: 80px;
+}
+
+div.contenedor3 {
+  margin-top: 80px;
+}
+
+div.imagenes-analisis {
+  margin-bottom: 50px;
+  object-fit: cover;
+}
+
+.card-img-top {
+  width: 280px;
+  height: 220px;
+}
+
+.sec-2 {
+  width: 220px;
+  height: 160px;
+}
+
+.proximos {
+  width: 380px;
+  height: 320px;
+}
+
+nav {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  width: 200px;
+}
+
+nav img {
+  width: 70px;
+  position: relative;
+  left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  position: relative;
+  right: 60px;
+  border-radius: 5px;
+}
+
+nav .search {
+  background-color: transparent;
+  padding: 0;
+  width: 300px;
+  display: flex;
+}
+
+nav .search button {
+  margin-left: 5px;
+  height: 30px;
+  background-color: lightgray;
+  border: none;
+  padding: 4px 6px;
+  border-radius: 5px;
+}
+
+.xbox {
+  width: 480px;
+  height: 420px;
+}
+
+/*# sourceMappingURL=main.css.map */
